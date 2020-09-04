@@ -35,18 +35,19 @@ body{
 }
 
 section{
-  margin-bottom: 10%;
+  margin-bottom: 15%;
 }
 
 .h2Abaut{
   font-family: 'Oswald', sans-serif;
   border-left: solid 2px #FF3366;
     padding-left: 3%;
-    font-size: 3rem;
-    color:#fff;
+    font-size: 50px;
+    color:#333;
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-weight: bold
+    font-weight: bold;
+    margin-top: 25%;
   }
 /*
 
@@ -111,7 +112,7 @@ a {
 /*______________________About__________________*/
 
 .About{
-  padding: 12% 15% 0% 15%;
+  padding:15% 5% 0% 5%;
 }
 
 .subrosa{
@@ -123,8 +124,9 @@ a {
       font-weight: bold
 }
 .textoAbaut{
-  color: #FFF;
+  color: #333;
   font-size: 18px;
+  text-align: justify;
 
 }
 
@@ -535,12 +537,12 @@ background-color: #fff;
 .botonPagina{
  display: inline-block;
  border:solid 2px;
-    border-color: #ff3366;
+    border-color: #ff3366 !important;
     outline: none;
 /*    margin: 8px 4px;*/
     width: 250px;
-    padding: 12px 20px;
-    border-radius: 30px;
+    padding: 12px 20px !important;
+    border-radius: 30px !important;
     margin-top: 5%;
 }
 .colorblanco{
