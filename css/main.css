@@ -596,22 +596,22 @@ text-transform: uppercase;
   font-size:14px;
   max-width:100%;
   padding:12px 20px;
- 
-  width: 60%!important;
+
+  width: 350px!important;
   text-transform: uppercase;
 }
 
 
 
 input[type="email"]{
-  width: 60% !important;
+  width: 350px !important;
 }
 
 input[type="text"]{
-  width: 60% !important;
+  width:350px !important;
 }
 input[type="text"]{
-   width: 60% !important;
+   width: 350px !important;
 }
 
 input[type="submit"]{
@@ -681,12 +681,12 @@ input[type="submit"]:active {
 
 
 .form-control{
-  width:60% !important;
+  width:350px!important;
       border-color: #ff3366 !important;
   display: inline-block;
     border-color: #ff3366;
     outline: none;
-    margin: 30px 4px;
+    margin: 15px 4px;
     font-size: 14px;
     max-width: 100%;
     padding: 12px 20px;
@@ -730,7 +730,7 @@ padding-left: 15%;
 }
 
 textarea.form-control{
-  width: 350px;
+  width: 350px !important;
     height: auto;
 }
 select.form-control {
