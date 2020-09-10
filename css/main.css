@@ -586,7 +586,7 @@ background-color: #fff;
   font-size:14px;
   max-width:100%;
   padding:12px 20px;
-  border-radius:30px;
+text-transform: uppercase;
 }
 .inline-form textarea{
   display:inline-block;
@@ -596,24 +596,26 @@ background-color: #fff;
   font-size:14px;
   max-width:100%;
   padding:12px 20px;
-  border-radius:30px;
+ 
+  width: 60%!important;
+  text-transform: uppercase;
 }
 
 
 
 input[type="email"]{
-  width:350px;
+  width: 60% !important;
 }
 
 input[type="text"]{
-  width:350px;
+  width: 60% !important;
 }
 input[type="text"]{
-  width:350px;
+   width: 60% !important;
 }
 
 input[type="submit"]{
- width:180px;
+
   cursor: pointer;
 background: rgba(0,0,0,.075);
     border: solid 2px #ff3366;
@@ -643,7 +645,7 @@ input[type="submit"]:active {
     width:210px;
   }
   input[type="submit"]{
-    width:250px;
+    width:60% !important;
   }
 }
 
@@ -679,15 +681,16 @@ input[type="submit"]:active {
 
 
 .form-control{
-  width: 350px;
+  width:60% !important;
+      border-color: #ff3366 !important;
   display: inline-block;
     border-color: #ff3366;
     outline: none;
-    margin: 8px 4px;
+    margin: 30px 4px;
     font-size: 14px;
     max-width: 100%;
     padding: 12px 20px;
-    border-radius: 30px;
+
 }
 
 
@@ -731,15 +734,9 @@ textarea.form-control{
     height: auto;
 }
 select.form-control {
-    width: 350px;
-    display: inline-block;
-    border-color: #ff3366;
-    outline: none;
-    margin: 8px 4px;
+  
      font-size: 14px; 
-    max-width: 100%;
-    /* padding: 12px 20px; */
-    border-radius: 30px;
+
     text-transform: uppercase;
 }
 
@@ -892,6 +889,9 @@ background-color: #fff;
 }
 
 
-ul{
- margin-left: 42%;
+
+@media screen and (max-width: 800px){
+  .subtituloMicochinito1{
+    font-size: 35px;
+  }
 }
