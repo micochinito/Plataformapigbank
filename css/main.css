@@ -741,7 +741,11 @@ select.form-control {
 }
 
 
-
+.inp{
+  border-radius: 20px !important;
+  font-size: 14px !important;
+  color: #6c757d !important;
+}
 
 
 /*__________________*/
